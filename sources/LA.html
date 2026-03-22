@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lassana Advertising Consultancy</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  body {
+    background-color: #1f242d;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  header {
+    padding: 5rem 2rem 2rem;
+    background: linear-gradient(135deg, #4dd4ee 0%, #1f242d 100%);
+    border-radius: 12px;
+  }
+
+  header h1 {
+    font-size: 3rem;
+    color: #1f242d;
+    margin-bottom: 1rem;
+  }
+
+  header p {
+    font-size: 1.2rem;
+    color: #1f242d;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .cta-button {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background-color: #1f242d;
+    color: #4dd4ee;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+
+  .cta-button:hover {
+    transform: scale(1.05);
+    background-color: #333f51;
+  }
+
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 2rem;
+  }
+
+  .service-card {
+    background-color: #323946;
+    border-radius: 12px;
+    padding: 2rem;
+    flex: 1 1 250px;
+    max-width: 300px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+
+  .service-card:hover {
+    transform: translateY(-10px);
+    background-color: #4dd4ee;
+    color: #1f242d;
+  }
+
+  .service-card h3 {
+    margin-bottom: 1rem;
+  }
+
+  footer {
+    margin-top: 6rem;
+    padding: 2rem 0;
+    color: #888;
+    font-size: 0.9rem;
+  }
+
+  @media(max-width:768px){
+    header h1 { font-size: 2.2rem; }
+    .services { flex-direction: column; align-items: center; }
+  }
+
+</style>
+</head>
+<body>
+
+  <header class="container">
+    <h1>Lassana Advertising Pvt Ltd</h1>
+    <p>Provided business consultancy to enhance sales and guided the company to use digital marketing effectively to reach a wider audience and improve revenue.</p>
+    <a href="#services" class="cta-button">Our Consultancy Services</a>
+  </header>
+
+  <section id="services" class="container services">
+    <div class="service-card">
+      <h3>Business Growth Strategy</h3>
+      <p>Developed actionable plans to increase sales, improve customer reach, and optimize operations.</p>
+    </div>
+    <div class="service-card">
+      <h3>Digital Marketing Guidance</h3>
+      <p>Advised on online campaigns, social media presence, and targeted advertising to boost engagement.</p>
+    </div>
+    <div class="service-card">
+      <h3>Sales Optimization</h3>
+      <p>Analyzed market trends and suggested improvements to maximize profitability.</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Portfolio of Oshadha Liyanage. All rights reserved.
+  </footer>
+
+</body>
+</html>
